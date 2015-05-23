@@ -36,7 +36,7 @@ encourage that you do the following:
   * Make needed changes/updates
   * Test
 
-  * Rebase your brance and force push to Github to update your PR
+  * Rebase your branch and force push to Github to update your PR
         
           git rebase master -i
           git push origin my-feature-branch -f
@@ -52,4 +52,4 @@ latest upstream version:
 
 
 
-[issues]: https://github.com/nibbleit/nate/issues
+[issues]: https://github.com/NibbleIT/nate/issues
