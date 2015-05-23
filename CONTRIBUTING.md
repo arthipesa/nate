@@ -4,7 +4,7 @@ We'd love for you to contribute(source code, stars, issues, etc.)
 
 ## Found an Issue?
 
-You can help us by using the [issue tracker](issue).
+You can help us by using the [issue tracker](issues).
 
 ## General Guidelines
 
