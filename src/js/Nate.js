@@ -243,19 +243,20 @@ function initMenubar() {
     menuEditMain.append(new gui.MenuItem({
         label: "Copy",
         click: function() {
-            NT.copyFunction();
+            clipboard.set(editor.getSelection());
         }
     }));    
     menuEditMain.append(new gui.MenuItem({
         label: "Cut",
         click: function() {
-            NT.cutFunction();
+            clipboard.set(editor.getSelection());
+            editor.replaceSelection('');
         }
     }));
     menuEditMain.append(new gui.MenuItem({
         label: "Paste",
         click: function() {
-            NT.pasteFunction();
+           editor.replaceSelection(clipboard.get());
         }
     }));
     menuEditMain.append(new gui.MenuItem({
