@@ -438,13 +438,5 @@ onload = function() {
 };
 
 onresize = function() {
-  var container = document.getElementById('editor');
-  var containerWidth = container.offsetWidth;
-  var containerHeight = container.offsetHeight;
-
-  var scrollerElement = editor.getScrollerElement();
-  scrollerElement.style.width = containerWidth + 'px';
-  scrollerElement.style.height = containerHeight + 'px';
-
   editor.refresh();
 }
