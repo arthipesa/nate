@@ -38,8 +38,8 @@ encourage that you do the following:
 
   * Rebase your brance and force push to Github to update your PR
         
-        git rebase master -i
-        git push origin my-feature-branch -f
+          git rebase master -i
+          git push origin my-feature-branch -f
 
 ### After Your PR is merged
 
