@@ -13,6 +13,7 @@ module.exports = function(grunt) {
     	    options: {
     	        platforms: ['win', 'linux', 'osx'],
     	        buildDir: './webkitbuilds',
+    	        winIco: '<%= config.src %>/icon.png'
               version: '0.12.2' // Where the build version of my node-webkit app is saved
     	    },
     	    src: ['./build/**/*'] // Your node-webkit app
@@ -46,10 +47,13 @@ module.exports = function(grunt) {
           }
         },
         changelog: {
-            options: {
-              file: 'CHANGELOG.md'
+            main: {
+              options: {
+                fileHeader: '# Changelog',
+                dest: 'CHANGELOG.md'
+              }
             }
-          },
+        },
         watch: {
           data: {
             files: [

@@ -24,10 +24,10 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-changelog": "^0.3.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-conventional-changelog": "^1.2.2",
     "grunt-node-webkit-builder": "^1.0.2",
     "load-grunt-tasks": "^3.1.0"
   }

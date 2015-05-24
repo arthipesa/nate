@@ -52,4 +52,4 @@ latest upstream version:
 
 
 
-[issues]: https://github.com/NibbleIT/nate/issues
+[issues]: https://github.com/NibbleIT/nate/issues/

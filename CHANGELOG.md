@@ -1,7 +1,9 @@
-<a name"0.0.1"></a>
-### 0.0.1 (2015-05-24)
+# Changelog
 
+NEW:
 
-<a name"0.0.1"></a>
-### 0.0.1 (2015-05-24)
+  (none)
 
+FIXES:
+
+  - previous
