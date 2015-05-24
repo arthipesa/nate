@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     	    options: {
     	        platforms: ['win', 'linux', 'osx'],
     	        buildDir: './webkitbuilds',
-              version: '0.12.1' // Where the build version of my node-webkit app is saved
+              version: '0.12.2' // Where the build version of my node-webkit app is saved
     	    },
     	    src: ['./build/**/*'] // Your node-webkit app
     	  },
@@ -45,6 +45,11 @@ module.exports = function(grunt) {
             ],
           }
         },
+        changelog: {
+            options: {
+              file: 'CHANGELOG.md'
+            }
+          },
         watch: {
           data: {
             files: [
@@ -59,7 +64,7 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
   
-    grunt.registerTask('build', ['clean', 'copy']);
+    grunt.registerTask('build', ['clean', 'copy', 'changelog']);
     grunt.registerTask('release', ['build', 'nodewebkit']);
     grunt.registerTask('default', ['release', 'watch']);
 };
