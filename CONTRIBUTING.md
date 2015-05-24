@@ -14,6 +14,10 @@ encourage that you do the following:
 * Fork, then clone the repo:
 
     git clone git@github.com:your-username/nate.git
+    
+    Note that after forking the project and cloning your fork to your local, install 
+    the editor using the installation procedure (1st npm install, 2nd bower install and 3rd grunt) 
+    before syncing your project to the main stream master. If this is not done, grunt will fail.
 
 * Make your changes(accompanied with appropriate tests) in a new git branch:
     
@@ -46,7 +50,7 @@ encourage that you do the following:
 Delete your local & remote branches. Checkout the master branch and pull the
 latest upstream version:
     
-    git chekcout master -f
+    git checkout master -f
     git branch -D my-feature-branch
     git pull --ff upstream master
 
