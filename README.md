@@ -32,7 +32,7 @@ After running the commands, three directories will be created
 * cache - contains the node-webkit runtime for building the editor
 * webkitbuilds - contains the binaries for the three major operating systems, Mac, Windows and Linux.
 
-Contribution
+How to contribute
 ============
 
 For infomation on contribution, [click](CONTRIBUTING.md) here.
