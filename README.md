@@ -10,10 +10,20 @@ Implementation
 ==============
 
 ## Requirements
+The following is required to be able to install the dependencies of nate code editor.
+Install them if not on system before installing the dependencies.
 
 Nodejs, bower and grunt-cli should be installed.
-
-## Installation
+    
+    Install node.js if it is not on system. Refer to node.js main site for procedure.
+    
+    Bower Installation In Linux Terminal:
+     npm install -g bower
+     
+    Grunt installation In Linux Terminal:
+     npm install -g grunt-cli
+    
+## Installation Of Dependencies for Nate.
 
 Node dependencies
 
