@@ -424,6 +424,7 @@ onload = function() {
             tabSize: 4,
             autofocus: true,
             theme: "ambiance",
+            smartIndent: true,
             extraKeys: {
                 "Cmd-S": function(instance) { handleSaveButton() },
                 "Ctrl-S": function(instance) { handleSaveButton() },

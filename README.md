@@ -4,6 +4,7 @@ Nate
 Nate is a sofware code editor from NibbleIT.
 
 ![Microsoft Windows](docs/img/win.png)
+![Mac](docs/img/mac.png)
 
 Implementation
 ==============
